@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: linear-gradient(to right, #23074d, #cc5333);
+    height: 100vh;    
+}
+header{
+    border: solid lightgreen;
+    height: 15vh;
+}
+nav{
+    background-color: rgb(53, 38, 63);
+}
+ul{
+    display: flex;
+    border: solid red;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 14vh;
+}
+li{
+    display: flex;
+    list-style: none;
+    color: white;
+    font-size: 35px;
+    transition: ease-in-out 1s;
+    border: solid;
+    width: 17%;
+    height: 13vh;
+    justify-content: center;
+    align-items: center;
+}
+li:hover{
+font-size: 48px;
+}
+li:hover img{
+    transform: scale(135%);
+}
+li img{
+    position: absolute;
+    height: 10vh;
+    top:2.5vh;
+    left:11.6vw;
+    transition: ease-in-out 1s;
+}
+main figure img {
+    height: 97.7vh;
+}
