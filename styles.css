@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Akshar:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=MedievalSharp&display=swap');
 *{
     margin: 0;
     padding: 0;
@@ -8,7 +10,7 @@ body{
     height: 100vh;    
 }
 header{
-    border: solid lightgreen;
+    /* border: solid lightgreen; */
     height: 15vh;
 }
 nav{
@@ -16,7 +18,7 @@ nav{
 }
 ul{
     display: flex;
-    border: solid red;
+    /* border: solid red; */
     justify-content: space-evenly;
     align-items: center;
     height: 14vh;
@@ -27,25 +29,114 @@ li{
     color: white;
     font-size: 35px;
     transition: ease-in-out 1s;
-    border: solid;
+    /* border: solid; */
     width: 17%;
     height: 13vh;
     justify-content: center;
     align-items: center;
+    font-family: "MedievalSharp", sans-serif;
 }
 li:hover{
 font-size: 48px;
 }
-li:hover img{
+li:hover .firstImgHeader, li:hover .secondImgHeader, li:hover .thirdImgHeader{
     transform: scale(135%);
 }
-li img{
+.firstImgHeader, .secondImgHeader, .thirdImgHeader{
     position: absolute;
     height: 10vh;
-    top:2.5vh;
-    left:11.6vw;
+    top:2vh;
+    left:11.2vw;
     transition: ease-in-out 1s;
 }
-main figure img {
-    height: 97.7vh;
+.secondImgHeader{
+    top: -1.3vh;
+    left: 38.3vw;
+    height: 14.1vh;
+}
+.thirdImgHeader{
+    height: 16.8vh;
+    top:-2vh;
+    left: 66.2vw;
+}
+/* begining main */
+main{
+    /* border: solid white; */
+    height: 150vh;
+}
+h2{
+    position: relative;
+    top: 25vh;
+    left: 35vw;
+    color: white;
+    font-family:"MedievalSharp", sans-serif;
+    font-size: 4vw;
+    width: 32%;
+}
+.torchSections{
+    position: relative;
+    top: 10.5vh;
+    left: 28vw;
+    display: flex;
+    justify-content: space-between;
+    width: 44.50%;
+}
+.torchSections img{
+    height: 15vh;
+}
+.mainBattle{
+    display: flex;
+    justify-content:right;
+    width: 77%;
+    position: relative;
+    top: 15vh;
+}
+.imgBattle{
+    height: 65vh;
+    border: solid;
+}
+h3{
+    position: relative;
+    left: 30.5vw;
+    top: 35vh;
+    color: white;
+    font-size: 50px;
+    font-family: "MedievalSharp", sans-serif;
+    width: 42%;
+}
+.secondSecImages, .secondSecImages figure{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    position: relative;
+    top: 38vh;
+    left: 2vw;
+    border: double 6px;
+    width: 95.5%;
+    height: 270vh;
+}
+.secondSecImages figure{
+    top: 5vh;
+    left: 0;
+    padding-top:6px;
+    border: none;
+    width: 33%;
+    height: 60vh;
+}
+.secondSecImages img{
+    height: 28vh;
+    border: solid 3px;
+}
+.secondSecImages figcaption{
+    display: flex;
+    flex-wrap: wrap;
+    width:90.5%;
+    height: 28vh;
+    border: solid 3.8px black;
+    border-radius: 10px;
+    color: white;
+    font-family:"Akshar", sans-serif;
+    font-size: 16.4px;
+    text-align: justify;
+    padding: 5px;
 }
