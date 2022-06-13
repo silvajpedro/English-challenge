@@ -64,7 +64,7 @@ main{
     /* border: solid white; */
     height: 150vh;
 }
-h2{
+h2,h3{
     position: relative;
     top: 25vh;
     left: 35vw;
@@ -72,6 +72,12 @@ h2{
     font-family:"MedievalSharp", sans-serif;
     font-size: 4vw;
     width: 32%;
+}
+h3{
+    left: 30.5vw;
+    top: 35vh;
+    font-size: 50px;
+    width: 42%;
 }
 .torchSections{
     position: relative;
@@ -94,15 +100,6 @@ h2{
 .imgBattle{
     height: 65vh;
     border: solid;
-}
-h3{
-    position: relative;
-    left: 30.5vw;
-    top: 35vh;
-    color: white;
-    font-size: 50px;
-    font-family: "MedievalSharp", sans-serif;
-    width: 42%;
 }
 .secondSecImages, .secondSecImages figure{
     display: flex;
@@ -140,3 +137,39 @@ h3{
     text-align: justify;
     padding: 5px;
 }
+/* begining footer */
+footer, .footerImages{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    top: 260vh;
+    font-size: 30px;
+    height: 55vh;
+    width: 100%;
+}
+footer{
+    flex-direction: column;
+}
+.footerImages{
+    top: -2vh;
+    justify-content: space-evenly;
+    border: solid 5px;
+    border-radius: 30px;
+    width: 60%;
+    height: 20vh;
+}
+.footerImages img{
+    height: 12vh;
+    transition: ease-in-out 1s;
+}
+.footerImages img:hover{
+    transform: scale(125%);
+}
+address{
+    position: relative;
+    top: 10vh;
+}
+
+
+
