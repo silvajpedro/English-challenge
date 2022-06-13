@@ -10,7 +10,6 @@ body{
     height: 100vh;    
 }
 header{
-    /* border: solid lightgreen; */
     height: 15vh;
 }
 nav{
@@ -18,7 +17,6 @@ nav{
 }
 ul{
     display: flex;
-    /* border: solid red; */
     justify-content: space-evenly;
     align-items: center;
     height: 14vh;
@@ -29,7 +27,6 @@ li{
     color: white;
     font-size: 35px;
     transition: ease-in-out 1s;
-    /* border: solid; */
     width: 17%;
     height: 13vh;
     justify-content: center;
@@ -61,7 +58,6 @@ li:hover .firstImgHeader, li:hover .secondImgHeader, li:hover .thirdImgHeader{
 }
 /* begining main */
 main{
-    /* border: solid white; */
     height: 150vh;
 }
 h2,h3{
@@ -170,6 +166,3 @@ address{
     position: relative;
     top: 10vh;
 }
-
-
-
